@@ -1,0 +1,128 @@
+body{
+    background-color: #1F253D;
+}
+.box{
+    height: auto;
+    padding: 30px;
+    background-color: #394264;
+    color: #FFFFFF;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+}
+
+header .box{
+    padding: 15px 30px;
+    margin-top: 1rem;
+}
+
+textarea#text-profile {
+    height: 100px;
+    width: 100%;
+    border-radius: 5px;
+    background-color: #50597B;
+    border: solid 2px #1F253D;
+    color: #FFFFFF;
+}
+textarea#text-profile::-webkit-input-placeholder{
+    color: #FFFFFF;
+}
+.btn-primary{
+    background-color: #11A8AB;
+    border-color: #11A8AB;
+}
+.btn-primary:hover{
+    background-color: #118486;
+    border-color: #118486;
+}
+
+.profile-picture {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    border-bottom: solid 3px #11A8AB;
+}
+img.ryan-picture{
+    margin-bottom: 1.5rem;
+    max-height: 155px;
+    max-width: 155px;
+    border-radius: 100%;
+    border: solid 5px #50597B;
+}
+.profile-picture p{
+    color: #9099A4;
+    text-align: center;
+}
+
+.porfile-informations{
+    padding: 0px 0px 30px 0px;
+}
+.porfile-informations h4{
+    background-color: #FCB150;
+    padding: 1rem 0;
+    border-radius: 5px 5px 0 0;
+    text-align: center;
+}
+ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    align-items: center;
+    flex-direction: column;
+}
+li{
+    margin-top: 0.5rem;
+    /* font-weight: 500; */
+}
+
+.message-1{
+    padding: 0;
+}
+.message-1 h4{
+    background-color: #E64C65;
+    padding: 1rem 30px;
+    border-radius: 5px 5px 0 0;
+}
+.message-1 p{
+    padding: 0 30px 30px 30px;
+}
+
+img.friend-picture{
+    max-height: 55px;
+    max-width: 55px;
+    border-radius: 100%;
+    border: solid 3px #50597B;
+}
+span.friend-user{
+    color: #9099A4;
+}
+
+.message-2{
+    padding: 0;
+}
+.message-2 h4{
+    background-color: #11A8AB;
+    padding: 1rem 30px;
+    border-radius: 5px 5px 0 0;
+}
+.message-2 p{
+    padding: 0 30px 30px 30px;
+}
+.message-3{
+    padding: 0;
+}
+.message-3 h4{
+    background-color: #FCB150;
+    padding: 1rem 30px;
+    border-radius: 5px 5px 0 0;
+}
+.message-3 p{
+    padding: 0 30px 30px 30px;
+}
+img.img-post{
+    height: 200px;
+    width: 100%;
+    border-radius: 5px;
+    object-fit: cover;
+}
